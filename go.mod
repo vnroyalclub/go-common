@@ -15,7 +15,4 @@ require (
 	gopkg.in/jcmturner/goidentity.v3 v3.0.0 // indirect
 )
 
-
-replace (
-	git.huoys.com/vn/proto => github.com/vnroyalclub/go_proto latest
-)
+replace git.huoys.com/vn/proto => github.com/vnroyalclub/go_proto v0.0.0-20230213101009-85b4ebd503db
