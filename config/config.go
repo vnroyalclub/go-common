@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"git.huoys.com/vn/go-common/log"
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
+	"github.com/vnroyalclub/go-common/log"
 )
 
 type Config struct {

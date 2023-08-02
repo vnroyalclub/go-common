@@ -3,9 +3,9 @@ package hall
 import (
 	"fmt"
 
-	"git.huoys.com/vn/go-common/log"
 	gproto "git.huoys.com/vn/proto"
 	"github.com/golang/protobuf/proto"
+	"github.com/vnroyalclub/go-common/log"
 )
 
 func LoadRobotsID(lvFrom, lvTo int32, hallUrl string) (robotResp gproto.LoadRobotsResp, err error) {

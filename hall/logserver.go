@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"git.huoys.com/vn/go-common/httputil"
-	"git.huoys.com/vn/go-common/log"
 	gproto "git.huoys.com/vn/proto"
+	"github.com/vnroyalclub/go-common/httputil"
+	"github.com/vnroyalclub/go-common/log"
 )
 
 //发送日志

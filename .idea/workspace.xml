@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd41ad8b-c4c6-4682-a3ee-b0832b5387f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-redis/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/game-redis/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-redis/client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/game-redis/client_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/friendroom.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/friendroom.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/gs.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/gs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/hall.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/hall_player.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall_player.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/hall_prop.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall_prop.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/hall_robot.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall_robot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/logserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/logserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/example/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/log/example/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/request.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://D:/Golang/Sdk/go1.14.15" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://D:/Golang/GOPATH_1_14" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TPPEYIlGIGv4g7gqqK2uZ5iQbG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"git.huoys.com/vn/go-common/game-redis/pb"
+	"github.com/vnroyalclub/go-common/game-redis/pb"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 )

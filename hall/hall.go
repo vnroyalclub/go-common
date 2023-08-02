@@ -3,9 +3,9 @@ package hall
 import (
 	"fmt"
 
-	"git.huoys.com/vn/go-common/log"
 	gproto "git.huoys.com/vn/proto"
 	"github.com/golang/protobuf/proto"
+	"github.com/vnroyalclub/go-common/log"
 )
 
 //请求关服

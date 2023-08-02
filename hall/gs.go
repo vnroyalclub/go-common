@@ -7,9 +7,9 @@ package hall
 import (
 	"fmt"
 
-	"git.huoys.com/vn/go-common/log"
 	gproto "git.huoys.com/vn/proto"
 	"github.com/golang/protobuf/proto"
+	"github.com/vnroyalclub/go-common/log"
 )
 
 //获取游戏的地址
@@ -113,7 +113,7 @@ func RecordCapitalFlow(playerID int64, gameID, groupId int32, serverID string,
 }
 
 //游戏桌子数据更新
-func GameTableUpdate(msg *gproto.GameTableUpdate,gsUrl string) (err error) {
+func GameTableUpdate(msg *gproto.GameTableUpdate, gsUrl string) (err error) {
 
 	data, err := proto.Marshal(msg)
 	if err != nil {
@@ -121,7 +121,7 @@ func GameTableUpdate(msg *gproto.GameTableUpdate,gsUrl string) (err error) {
 		return
 	}
 
-	res,err := httpPost(0, int32(gproto.ServiceOps_GS_Req_GameTableUpdate), data, gsUrl)
+	res, err := httpPost(0, int32(gproto.ServiceOps_GS_Req_GameTableUpdate), data, gsUrl)
 	if err != nil {
 		log.Error("failed to update game table data,err:", err)
 		return
@@ -136,18 +136,17 @@ func GameTableUpdate(msg *gproto.GameTableUpdate,gsUrl string) (err error) {
 	return
 }
 
-
 func LoadShareData(key string, gsUrl string) (rsp gproto.LoadValuesResp, err error) {
 
 	msg := &gproto.LoadValues{}
 	msg.Keys = append(msg.Keys, key)
 	data, err := proto.Marshal(msg)
-	if err!=nil {
-		log.Error("failed to marshal request data,err:",err)
+	if err != nil {
+		log.Error("failed to marshal request data,err:", err)
 		return
 	}
 
-	res,err := httpPost(0, int32(gproto.ServiceOps_GS_Req_LoadShareData), data, gsUrl)
+	res, err := httpPost(0, int32(gproto.ServiceOps_GS_Req_LoadShareData), data, gsUrl)
 	if err != nil {
 		log.Error("failed to load share data,err:", err)
 		return
@@ -167,7 +166,6 @@ func LoadShareData(key string, gsUrl string) (rsp gproto.LoadValuesResp, err err
 	return
 }
 
-
 func UpdateShareData(playerId int64, mapValues map[string]string, gsUrl string) (err error) {
 
 	msg := &gproto.UpdateKeyValues{}
@@ -181,11 +179,11 @@ func UpdateShareData(playerId int64, mapValues map[string]string, gsUrl string) 
 
 	data, err := proto.Marshal(msg)
 	if err != nil {
-		log.Error("failed to marshal request data,err:",err)
+		log.Error("failed to marshal request data,err:", err)
 		return
 	}
 
-	res,err := httpPost(0, int32(gproto.ServiceOps_GS_Req_UpdateShareData), data, gsUrl)
+	res, err := httpPost(0, int32(gproto.ServiceOps_GS_Req_UpdateShareData), data, gsUrl)
 	if err != nil {
 		log.Error("failed to update share data,err:", err)
 		return
@@ -201,9 +199,9 @@ func UpdateShareData(playerId int64, mapValues map[string]string, gsUrl string) 
 }
 
 //
-func LoadKeyValues(gsUrl string,key ...string) (kv map[string]string,err error) {
+func LoadKeyValues(gsUrl string, key ...string) (kv map[string]string, err error) {
 
-	kv= make(map[string]string)
+	kv = make(map[string]string)
 
 	msg := &gproto.LoadValues{}
 	msg.Keys = append(msg.Keys, key...)
@@ -233,15 +231,15 @@ func LoadKeyValues(gsUrl string,key ...string) (kv map[string]string,err error) 
 		return
 	}
 
-	for _,item:=range values.Items{
-		kv[item.GetKey()]=item.GetValue()
+	for _, item := range values.Items {
+		kv[item.GetKey()] = item.GetValue()
 	}
 
 	return
 }
 
 //更新键值对
-func UpdateKeyValues(playerId int64, mapValues map[string]string,gsUrl string) (err error) {
+func UpdateKeyValues(playerId int64, mapValues map[string]string, gsUrl string) (err error) {
 
 	msg := &gproto.UpdateKeyValues{}
 	for key, value := range mapValues {
@@ -258,7 +256,6 @@ func UpdateKeyValues(playerId int64, mapValues map[string]string,gsUrl string) (
 		return
 	}
 
-
 	res, err := httpPost(playerId, int32(gproto.ServiceOps_GS_Req_UpdateKeyValues), data, gsUrl)
 	if err != nil {
 		log.Error("failed to update key value ,err:", err)
@@ -274,9 +271,8 @@ func UpdateKeyValues(playerId int64, mapValues map[string]string,gsUrl string) (
 	return
 }
 
-
 //游戏服务器的更新
-func GameUpdate(msg gproto.GameUpdate,gsUrl string) (err error) {
+func GameUpdate(msg gproto.GameUpdate, gsUrl string) (err error) {
 	data, err := proto.Marshal(&msg)
 	if err != nil {
 		log.Error("game update Mashal data error:", err)

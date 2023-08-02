@@ -1,7 +1,7 @@
 package main
 
 import (
-	"git.huoys.com/vn/go-common/log"
+	"github.com/vnroyalclub/go-common/log"
 	"time"
 )
 

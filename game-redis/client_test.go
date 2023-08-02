@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"git.huoys.com/vn/go-common/game-redis/pb"
+	"github.com/vnroyalclub/go-common/game-redis/pb"
 )
 
 func TestNewGameRedisClient(t *testing.T) {

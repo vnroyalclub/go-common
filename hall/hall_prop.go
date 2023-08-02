@@ -7,9 +7,9 @@ package hall
 import (
 	"fmt"
 
-	"git.huoys.com/vn/go-common/log"
 	gproto "git.huoys.com/vn/proto"
 	"github.com/golang/protobuf/proto"
+	"github.com/vnroyalclub/go-common/log"
 )
 
 //修改玩家道具信息(GameID 为大厅,在大厅其他子服务中使用)

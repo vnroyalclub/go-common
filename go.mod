@@ -1,4 +1,4 @@
-module git.huoys.com/vn/go-common
+module github.com/vnroyalclub/go-common
 
 go 1.12
 
