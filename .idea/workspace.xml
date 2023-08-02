@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd41ad8b-c4c6-4682-a3ee-b0832b5387f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-redis/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/game-redis/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game-redis/client_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/game-redis/client_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go-common@v1.0.3-0.20201123094203-0e2310150cdd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-common@v1.0.3-0.20201123094203-0e2310150cdd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hall.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hall/friendroom.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/friendroom.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hall/gs.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/gs.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hall/hall.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hall/hall_player.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall_player.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/hall_player_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall_player_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hall/hall_prop.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall_prop.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/hall_prop_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall_prop_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hall/hall_robot.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall_robot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/hall_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/hall_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hall/logserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/logserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall/logserver_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/logserver_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hall/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall/request.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/example/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/log/example/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hall_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hall_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/request.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +42,14 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/redisutil/comsumer.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/redis/hash.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/redis/command.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/kafka/consumer.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/redisutil/command.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/timeutil/time.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/hall/hall_robot.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable..is.expanded" value="true" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.format.on.save.advertiser.fired" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />

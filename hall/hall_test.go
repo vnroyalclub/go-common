@@ -8,7 +8,7 @@ import (
 
 	"testing"
 
-	gproto "git.huoys.com/vn/proto"
+	gproto "github.com/vnroyalclub/go_proto"
 	"github.com/golang/protobuf/proto"
 )
 

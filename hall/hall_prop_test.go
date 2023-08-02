@@ -3,7 +3,7 @@ package hall
 import (
 	"testing"
 
-	gproto "git.huoys.com/vn/proto"
+	gproto "github.com/vnroyalclub/go_proto"
 )
 
 func TestModProps(t *testing.T) {

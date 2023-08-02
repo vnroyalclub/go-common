@@ -3,7 +3,7 @@ package hall
 import (
 	"fmt"
 
-	gproto "git.huoys.com/vn/proto"
+	gproto "github.com/vnroyalclub/go_proto"
 	"github.com/golang/protobuf/proto"
 	"github.com/vnroyalclub/go-common/log"
 )

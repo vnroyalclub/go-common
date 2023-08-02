@@ -1,7 +1,7 @@
 package hall
 
 import (
-	gproto "git.huoys.com/vn/proto"
+	gproto "github.com/vnroyalclub/go_proto"
 
 	"testing"
 )

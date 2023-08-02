@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"net/http"
 
-	gproto "git.huoys.com/vn/proto"
+	gproto "github.com/vnroyalclub/go_proto"
 	"github.com/vnroyalclub/go-common/httputil"
 	"github.com/vnroyalclub/go-common/log"
 )
